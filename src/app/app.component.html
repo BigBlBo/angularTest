@@ -1,0 +1,11 @@
+
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+<app-dropdown-elem [element]="'drugi'" [register]="'regis'"></app-dropdown-elem>
+<app-text-elem [element]="'prvi'" [typeEle]="'text'"></app-text-elem>
+<app-text-elem [element]="'prvi'" [typeEle]="'text'"></app-text-elem>
+<app-text-elem [element]="'prvi'" [typeEle]="'text'"></app-text-elem>
+
+
+<button (click)="changeScreen()">change</button>
+<button type="submit">sub</button>
+</form>
